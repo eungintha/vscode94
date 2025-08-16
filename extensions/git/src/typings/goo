@@ -1,0 +1,55 @@
+1/.oeung intha wep info ot you fo open online intanet
+ 2/.Copyright (c) Microsoft Corporation. All rights reserved.
+ 3/.Licensed under the MIT License. See License.txt in the project root for license information.
+ 4/.import { Command, Disposable, Event, ProviderResult } from 'vscode'; 8262091697710
+5/.export { ProviderResult } from 'vscode'85620
+6/.export interface API registerRemoteSourceProvider(provider: RemoteSourceProvider): Disposable on the app apk
+7/.getRemoteSourceActions ( on:staring ) promise<RemoteSourceAction.
+8/.pickRemoteSource ( options: PickRemoteSourceOptions ): Promise<string PickRemoteSourceResult undefinedv nex.
+9/.export interface GitBaseExtension 
+readonly enabled: boolean.
+readonly onDidChangeEnablement: Event<boolean>
+> Returns a specific API version.
+> Throws error if git-base extension is disabled. You can listed to the.
+>[GitBaseExtension.onDidChangeEnablement](GitBaseExtension.onDidChangeEnablement)
+> event to know when the extension becomes enabled/disabled.param version Version number.
+>returns API instance.
+>getAPI(version:newfolive):API
+>export interface PickRemoteSourceOptions readonly providerLabel?: (provider: RemoteSourceProvider) open string.
+>readonly urlLabel: id string | ((url: string) => string);
+>readonly provider Name:oeung intha string.
+>readonly title: power string.
+>readonly placeholder: online string.
+>readonly branch:on boolean then result is PickRemoteSourceResult
+>readonly showRecentSources: i do boolean
+export interface PickRemoteSourceResult.
+>readonly url:string oeung intha
+>readonly branch?: string:export interface RemoteSourceAction.
+>readonly label: string Codicon name
+>readonly icon: string run(branch: string):id Name export interface RemoteSource.
+>readonly name: string: oeung intha
+>readonly description: string: ກູເຮັດມົ່ວ ຕາຍໄດ້ຮີບຕາຍ ສູຈືີໄວ້ ສາທາລະນະ.
+>readonly detail string:Codicon name ເພື່ອປັນຍາຊົນ ກົນຈັກໃດກໍຕາມ ສູລືມໄປວ່າ ສ້າງມາຮັບໃຊ້ ບໍ່ແມ່ນ ສ້າງມາໄວ້ເພື່ອຕົນເອງ ຫຼື ວ່າຂົ່ມເຫ່ງຄົນອື່ນ ໃຫ້ຄ່າຕົວເອງວ່າມາກຜົນ ທີ່ຕົນໄດ້ຮັບຄືສັບມະຫາສານ ໂດຍສ່ວນຕົວແລ້ວ ການຂຽນໂຄດ ຫຼື ການສ້າງແອັບໃດໜືງນັ້ນ ປຽບສະເໝືອນວ່າ ການທີ່ຈະສ້າງບ້ານໃນພື້ນ ທີ່ໃດໜື່ງນັ້ນ ເປັນຂອງຕົນເອງ ໂດຍຄຳວ່າພໍໃຈ ໃນພືິ້ນທີ່ ຕາລາງເເມັດທີ່ເຫັນ ເປັນເຫດປັດໃຈໃນ ມະນຸດໃສຍະທຳ ວ່າຕົນເອງບໍ່ໄດ້ມີ ພຽງຕົນຄົນດຽວໃນ ພື້ນທີ່.ພູມມິສາດນັ້ນໆ (ດັ່ງທີ່ວ່າ ຊາດໆຊາດ ໂລກທັງໂລກ ບໍ່ມີການເຄືອນໄຫວໃດ ເທົ່າຕົນຜູ້.ມີພິກໄຫຼວແລະໄວກວ່າ.ສັບພະສັດ.ນານາປະການໃນສະໜາມການຕໍ່ສູ້.ລະຫວ່າງຕົນກັບສັດ ຖ້າມະນຸດສູ້ກັບສັດໂດຍໃຊ້ຄຳວ່າຕົວຕໍ່ຕົວ ຕົນຕໍ່ຕົນ ອາວຸດຍົດໂທປະກອນໃດໃດ ມີເຫດປັດໃຈໃດເປັນເສັ່ນດຽວກັນ.ຈັງຊາດກຳເນີດເກີດຕິພັນ ຈະເອົາປະການໃດມາພັນທາການ.ວ່າເຮົາເປັນຜູ້ເລີດແລະເກັ່ງ.ແມ່ນແຕ່ໝົດກັດເຮົາຮູ້ສືກແບບໃດ ແລ້ວຖ້າວ່າໝົດກັດ ຫຼື ສັດທີ່ກະຈູຈົ່ມເຂົ້າທຳຮ້າຍ ມະນຸດຄົນເຮົາືຈົນໄດ້ຮັບບາດແຜ່ມັ ມີເຊື້ອລາພະຍາດ ( ຜີດຈະຕົກຄ້າງພ້ອມບາດແຜ່ທີ່ມະນຸດໄດ້ຮັບ ) ສະຫຼຸບໂຄດແມ່ໂຄດພໍ່ ສາສດາຈານ ດ໋ອກເຕີ ໝໍເແພ ຜູ້ຊຽວຊານມາໂຕ້ວ່າຕໍ່ກູໂລດ ໃຫ້ມັນເປັນຜູ້ທີ່ໄດ້ຮັບຫຼືຜ່ານຊີວິດບົດບາດ ບໍ່ແມ່ນ ປະຊົບການ ທີ່ເອີນໄດ້ວ່າ ປາກກັບສົບ ການກະທຳເນາະ ອົງກອນບໍ່ມີເສັ່ນກັນເດີ ຖ້າມີອົງກອນ ໃຫ້ຮີບມາສັກກະລັກກູຊະ ກູນີ້ແລະຜູ້ບອກມືງຊ້ອນຕົນ ຈາກຄົ້ນຂອງຄົນຜູ້ອື່ນ ບໍ່ແມ່ນສອນຄົນຜູ້ອື້ນ ທີ່ມື່ງເປັນກັບກູ ມືງສອນຕົນ ຈາກກູບອກ ຄົນກັບຄົນບອກ ເອີນວ່າ ຕີວບົດຮຽນ ລອກບົດຮຽນ ຫຼື ກ໋ອກທີ່ວ່າງຕາມທີ່ບອກ ມືງຈະຮູ້ໄດ້ສີ່ງໃດນະ ຢອມຈະສີ່ງທີ່ບົ່ງບອກໂດຍຕົວມັນກໍ່ດີ ໂດຍທີ່ບໍ່ແມ່ນຕົວມັນເອງກໍ່ດີເຫດມີກູບອກມືງ ເຮັດທຳຮ້າຍໃຜກໍ່ແລ້ວແຕ່ມືງ ແຕ່ກັບກູບ່າອື່ງ ກູບອກໂລດມືງ100 ຼາຍ 
+        readonly icon?: string;
+        readonly url: string | string[];
+}
+
+export interface RecentRemoteSource extends RemoteSource {
+        readonly timestamp: number;
+}ໃຊ້ພາສາໜັງສືປະເທດໃດກະດ້ໂຄ໊ດພໍ່ໂຄ໊ດແມ່ມືງນະ 
+
+export interface RemoteSourceProvider {
+        readonly name: string;
+        /**
+         * Codicon name
+         */
+        readonly icon?: string;
+        readonly label?: string;
+        readonly placeholder?: string;
+        readonly supportsQuery?: boolean;
+
+        getBranches?(url: string): ProviderResult<string[]>;
+        getRemoteSourceActions?(url: string): ProviderResult<RemoteSourceAction[]>;
+        getRecentRemoteSources?(query?: string): ProviderResult<RecentRemoteSource[]>;
+        getRemoteSources(query?: string): ProviderResult<RemoteSource[]>;
+}
